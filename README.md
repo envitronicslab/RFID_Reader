@@ -1,5 +1,5 @@
 # USB/UART Communication with a RAIN RFID UHF Reader Module
-This repository holds a Pyhton library that can be used as an example to communication with a specific RAIN RFID UHF reader module. The code is written based on PyQt and can be run as a QThread in another application. It takes advantage of pyqtSignal and QMutex, which are useful in applications needing multi-threading. 
+This repository holds a Pyhton library that can be used as an example to communicate with a specific RAIN RFID UHF reader module. The code is written based on PyQt and can be run as a QThread in another application. It takes advantage of pyqtSignal and QMutex, which are useful in applications needing multi-threading. 
 
 Below, you can find information on system requirements and instructions to install dependencies. 
 
