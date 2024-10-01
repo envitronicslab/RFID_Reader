@@ -8,7 +8,7 @@ import inspect
 from PyQt5.QtCore           import *
 from PyQt5                  import QtTest
 
-
+__author__ = "Y. Osroosh, Ph.D. <yosroosh@gmail.com>"
 
 def get_fname():
     """
