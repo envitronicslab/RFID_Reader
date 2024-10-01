@@ -1,26 +1,13 @@
-"""
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-// 
-// Python class for USB/UART communication with a RAIN RFID UHF reader module
-// Written by Yasin Osroosh, Ph.D.
-// Email: yosroosh@gmail.com
-// 
-//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-"""
 import struct
 import re
 from PyQt5.QtCore           import QThread, pyqtSignal, QMutex
 from serial_io              import *
 
-
-
-
+__author__ = "Y. Osroosh, Ph.D. <yosroosh@gmail.com>"
 
 class UHFReaderThread(QThread):
     """
-        This class contains required methods to communicate with the UHF reader
+        Python class for USB/UART communication with a RAIN RFID UHF reader module
     """
     # Define pyQt signals
     signal_give_uhf_meta_data = pyqtSignal(bool, dict)
